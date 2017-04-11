@@ -1,0 +1,23 @@
+{
+  "name": "webRTC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "supervisor server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-google": "^0.7.1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+  }
+}
